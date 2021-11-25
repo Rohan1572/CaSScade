@@ -205,7 +205,7 @@ li {
   font-size: 20px;
 }
 
-.copyright {
+.copyright { 
   background-color: #12a71f;
   color: white;
   padding: 7px;
@@ -237,7 +237,8 @@ li {
   transition: 0.5s all ease-in-out;
   margin: 30px;
   padding: 20px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 1px 1px 5px black;
+  font-weight: bold;
 }
 
 .two:hover {
