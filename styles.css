@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 15px;
+}
+
+li {
+  font-size: 15px;
+}
+
+.img {
+  text-align: center;
+}
+
+.uno {
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #12a71f;
+  color: white;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
+  -webkit-box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
+  -moz-box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
+}
+
+.uno .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #12a71f;
+}
+
+.uno .menu li {
+  float: right;
+}
+
+.uno li a {
+  display: block;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: white;
+}
+
+.uno #logo {
+  margin-right: 40vw;
+  font-size: 40px;
+  padding: 15px;
+  color: white;
+}
+
+.odd {
+  width: 50vw;
+  padding: 50px 7% 50px 14%;
+}
+
+.even {
+  width: 50vw;
+  padding: 50px 14% 50px 7%;
+}
+
+.probs {
+  padding: 20px 60px;
+  border-radius: 50px;
+  background-color: #12a71f;
+  color: white;
+  width: 58%;
+  margin: auto;
+}
+
+.probs ul li p {
+  font-size: 20px;
+}
+
+.def {
+  margin: 100px 0;
+}
+
+.even td {
+  width: 50vw;
+  padding: 50px 14% 50px 7%;
+}
+
+.def .even li p {
+  font-size: 20px;
+}
+
+.methods {
+  margin: 100px 0;
+}
+
+.green {
+  color: #12a71f;
+}
+
+.green2 {
+  color: #12a76a;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.one {
+  height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  margin: 20px auto;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 10px #12a71f;
+}
+
+.one h2 {
+  text-align: center;
+}
+
+.flip-card {
+  perspective: 1000px;
+  margin: 20px auto;
+}
+
+.flip-card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.second {
+  position: absolute;
+  bottom: 50px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  bottom: 21px;
+  width: 300px;
+}
+
+.idea p {
+  margin: 0 28%;
+}
+
+.idea h2 {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.idea ul p {
+  margin: 0;
+}
+
+.idea h2 {
+  color: #12a71f;
+  font-size: 30px;
+}
+
+.out {
+  margin: 0 21%;
+}
+
+.copyright {
+  background-color: #12a71f;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+/* @media (max-width: 1300px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+} */
