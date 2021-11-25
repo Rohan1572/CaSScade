@@ -4,6 +4,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 p {
   font-size: 15px;
 }
@@ -20,7 +27,7 @@ li {
   min-height: 100vh;
 }
 
-.nav {
+.navbar {
   display: flex;
   justify-content: space-around;
   background-color: #12a71f;
@@ -31,6 +38,10 @@ li {
   box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
   -webkit-box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
   -moz-box-shadow: 0 9px 19px -9px rgba(69, 69, 69, 1);
+}
+
+.nav-links {
+  margin: 0;
 }
 
 .uno .menu ul {
@@ -150,8 +161,7 @@ li {
 }
 
 .second {
-  position: absolute;
-  bottom: 50px;
+  bottom: 120px;
 }
 
 .flip-card-back {
