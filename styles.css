@@ -10,15 +10,15 @@ body {
   justify-content: center;
 }
 
-.bg {
-  background-image: url(./Images/claudio-testa--SO3JtE3gZo-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  z-index: -5;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
+.illus {
+  height: 20rem;
+}
 p {
   font-size: 15px;
 }
@@ -205,7 +205,7 @@ li {
   font-size: 20px;
 }
 
-.copyright { 
+.copyright {
   background-color: #12a71f;
   color: white;
   padding: 7px;
