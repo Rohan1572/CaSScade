@@ -201,19 +201,45 @@ li {
   margin: 0 21%;
 }
 
+.out p {
+  font-size: 20px;
+}
+
 .copyright {
   background-color: #12a71f;
   color: white;
   padding: 7px;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 20px;
   margin-top: 100px;
 }
 
-/* @media (max-width: 1300px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-  }
+.outcard {
+  display: flex;
+}
+
+/* .two {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  margin: 50px;
 } */
+
+.two {
+  text-align: center;
+  color: white;
+  background-color: #17d528;
+  height: 75px;
+  width: 300px;
+  border-radius: 30px;
+  margin: 20px auto;
+  transition: 0.5s all ease-in-out;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.two:hover {
+  transform: scale(1.1);
+}
